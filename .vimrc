@@ -35,7 +35,7 @@ nnoremap <silent> <F9> :TagbarOpenAutoClose<CR>
 " Variables
 set rtp+=~/.fzf
 set laststatus=2 tabstop=2 shiftwidth=2 softtabstop=2 expandtab
-let g:ycm_python_binary_path = 'python'
+let g:ycm_server_python_interpreter='python3'
 let g:UltiSnipsExpandTrigger='<c-j>'
 let g:ycm_cache_omnifunc=0
 
